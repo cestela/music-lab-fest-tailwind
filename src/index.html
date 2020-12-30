@@ -12,29 +12,75 @@
         <!-- do not remove this line! -->
         <title>Music Lab Fest</title>
     </head>
-    <body class="bg-black text-white p-4 flex flex-col">
-        <nav class="flex flex-col p-4">
+    <body class="bg-black text-white p-4 flex flex-col container h-full leading-normal">
+        <nav class="flex nav">
             <a href="index.html">
                 <img src="assets/images/logo.png" class="w-28 h-28">
             </a>
-            <ul class="uppercase font-black flex flex-col items-start">
-                <li class="">
+            <ul class="nav_bar">
+                <li class="nav_link">
                     <a href="#">Artistas invitados</a>
                 </li>
-                <li class="">
+                <li class="nav_link">
                     <a href="#">Sobre nosotros</a>
                 </li>
-                <li calss="">
+                <li class="nav_link">
                     <a href="#">Consigue tus entradas</a>
                 </li>
               </ul>
         </nav>
-        <main class="flex h-screen flex-col p-4">
-            <h1 class="text-5xl">Sobre nosotros</h1>
-            <div class="h-3/6 concert">
-                <p>hola</p>
+        <main class="flex h-screen flex-col p-4 text-left">
+            <h1 class="text-6xl md:text-7xl  md:ml-20 font-black uppercase font-header">Sobre<br>nosotros</h1>
+            <div class="concert flex content-center my-5 py-20 md:py-80">
+                <div class="container self-center">
+                    <h1 class="text-6xl  md:text-7xl uppercase font-black font-header md:text-center">¡Un festival para reunirlos a todos!</h1>
+                 </div>           
             </div>
-            
+            <h3 class="text-2xl uppercase my-5 font-header md:mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta harum, laboriosam delectus dolores animi nisi, culpa odio asperiores aspernatur consequuntur!</h3>
+            <p class="text-xl font-body md:my-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum maxime, veniam esse dolorem, soluta odit deleniti sequi, quas aliquam ipsa? Obcaecati non commodi id consequuntur sint, consequatur cupiditate quibusdam?</p>
+            <div class="border-t-4 border-b-4 border-red-500 mt-5 py-5 flex p-2 md:justify-center">
+                <ol class="list-decimal md:w-3/4">
+                    <li>
+                        <div>
+                            <h4 class="font-black uppercase text-2xl mb-4 font-header">Lorem ipsum dolor sit.</h4>
+                            <p class="text-xl font-body md:py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste facilis voluptates eum ab saepe voluptatum quae, totam similique reiciendis debitis voluptatibus vel at necessitatibus aperiam magnam, culpa quod minima, ducimus aliquam optio nam. Iusto at ullam error officiis. Provident inventore eos ex ipsum illo enim deserunt nobis ea sunt quas.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <h4 class="font-black uppercase text-2xl mb-4 font-header">Lorem ipsum dolor sit.</h4>
+                        <p class="text-xl font-body md:py-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere cupiditate illo numquam repellat minus. Ex, id culpa voluptatibus enim repellat animi quae maxime, commodi at totam magnam laboriosam deserunt dignissimos necessitatibus inventore ipsa doloribus doloremque.</p>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4 class="font-black uppercase text-2xl mb-4 font-header">Lorem ipsum dolor sit.</h4>
+                            <p class="text-xl font-body md:py-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro officiis aliquid rerum cupiditate eligendi! Labore aperiam tempora animi temporibus id eligendi rem nesciunt cupiditate vitae laudantium quidem odit quis ex facilis ea provident quo, nulla explicabo voluptas voluptates modi. Provident alias rem dolorum ex tempora dignissimos dolor accusamus in impedit fugiat dicta, exercitationem est a nobis quo, labore deserunt? Reprehenderit?</p>
+                        </div>            
+                    </li>
+                </ol>
+            </div>
+            <div class="flex flex-col mb-6 md:flex-row md:justify-between">
+                <blockquote class="py-4 md:p-10 uppercase text-xl border-l-4 border-red-500 pl-4 mb-8">
+                    <h3 class="font-header text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates perspiciatis, ut ad illum magnam illo et maxime nesciunt odit repudiandae molestiae iusto sequi obcaecati soluta? Quisquam commodi sunt fugiat?</h3>
+                </blockquote>
+                <p class="text-xl font-body md:p-10 md:my-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus delectus magnam quaerat doloribus deserunt distinctio dolor nesciunt obcaecati debitis voluptatum ea sed quia nam consequuntur eum, blanditiis nostrum nemo deleniti libero error iure cum! Corrupti, voluptatem assumenda laudantium, aut excepturi cumque sit itaque atque illo ipsam esse veniam magni ab quisquam quo culpa laboriosam. Dolores voluptas a blanditiis voluptatem. Labore expedita ex dicta earum perferendis, fugit eveniet alias eaque explicabo vitae unde culpa eos quae laboriosam tempore dolore hic delectus. Ex repudiandae soluta pariatur quos quod perspiciatis modi quia placeat doloremque numquam, enim reiciendis vitae, maiores cumque obcaecati id. Molestias?</p>
+            </div>
+            <img src="/assets/images/concert.jpg" class="img-fluid" alt="Responsive image">
+            <p class="text-xl mt-6 font-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum maxime, veniam esse dolorem, soluta odit deleniti sequi, quas aliquam ipsa? Obcaecati non commodi id consequuntur sint, consequatur cupiditate quibusdam?</p>
+            <footer class="flex justify-between my-6">
+                <img
+                src="assets/images/logo.png"
+                alt="Music Lab Fest"
+                class="w-28 h-28"
+            />
+            <div class="w-1/2 flex justify-end">
+                <a href="#"><i class="fab fa-twitter fa-2x m-2"></i></a>
+                <a href="#"><i class="fab fa-facebook-f fa-2x m-2"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x m-2"></i></a>
+            </div>
+            </footer>
         </main>
+
     </body>
 </html>

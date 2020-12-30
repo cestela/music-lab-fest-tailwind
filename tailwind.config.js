@@ -4,10 +4,11 @@ module.exports = {
   purge: ["./src/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      header: ['Rubik', 'sans-serif'],
+      body: ['Karla', 'sans-serif'],
+    },
     extend: {
-      colors: {
-        teal: colors.teal
-      },
       container: {
         center: true,
         padding: "1rem"

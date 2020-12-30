@@ -8,6 +8,7 @@ module.exports = {
     "no-eol-whitespace": null,
     "declaration-empty-line-before": null,
     "value-keyword-case": null,
+    "declaration-colon-space-after": null,
     "at-rule-no-unknown": [
       true,
       {
@@ -18,6 +19,7 @@ module.exports = {
           "variants",
           "screen",
           "use",
+          "layer",
         ],
       },
     ],
