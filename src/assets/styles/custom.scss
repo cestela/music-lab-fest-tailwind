@@ -21,6 +21,48 @@ ol {
   margin: 0 auto;
 }
 
+.img {
+  left: 900px;
+  top: 100px;
+}
+
+.jamesbello {
+  background-image: url(../images/jamesbello.jpg);
+}
+
+.hakkunamatata {
+  background-image: url(../images/hakkunamatata.jpg);
+}
+
+.loschupacabras {
+  background-image: url(../images/loschupacabras.jpg);
+}
+
+.sammysmithor {
+  background-image: url(../images/sammysmithor.jpg);
+}
+
+.sorbeatriz {
+  background-image: url(../images/sorbeatriz.jpg);
+}
+
+.thethunderides {
+  background-image: url(../images/thethunderides.jpg);
+}
+
+.callumwarlow {
+  background-image: url(../images/callumwarlow.jpg);
+}
+
+.intenserepertoire {
+  background-image: url(../images/intenserepertoire.jpg);
+}
+
+.card:hover {
+  border: 1px red solid;
+  box-shadow: 0 0 25px 0 red;
+}
+
 @layer components {
   .nav {
     @apply flex-col md:flex-row md:justify-between md:items-center md:mb-6 p-4;
@@ -31,6 +73,18 @@ ol {
   
     &_link {
       @apply border-b-2 border-transparent hover:border-red-500 md:mx-2;
+    }
+  }
+
+  .card {
+    @apply bg-cover bg-center h-300 md:max-w-300 text-lg flex flex-col justify-end rounded m-4 p-4 w-full;
+
+    &_title {
+      @apply bg-red-600 uppercase font-header font-black p-2 my-4;
+    }
+
+    &_body {
+      @apply text-red-600 font-body;
     }
   }
 }
