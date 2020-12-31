@@ -7,7 +7,7 @@
 }
 
 li::marker {
-  color:red;
+  color:$red;
   font-size: 2rem;
   font-weight: 900;
 }
@@ -59,8 +59,8 @@ ol {
 }
 
 .card:hover {
-  border: 1px red solid;
-  box-shadow: 0 0 25px 0 red;
+  border: 1px $red solid;
+  box-shadow: 0 0 25px 0 $red;
 }
 
 @layer components {
@@ -72,7 +72,7 @@ ol {
     }
   
     &_link {
-      @apply border-b-2 border-transparent hover:border-red-500 md:mx-2;
+      @apply border-b-2 border-transparent hover:border-red-primary md:mx-2;
     }
   }
 
@@ -80,11 +80,11 @@ ol {
     @apply bg-cover bg-center h-300 md:max-w-300 text-lg flex flex-col justify-end rounded m-4 p-4 w-full;
 
     &_title {
-      @apply bg-red-600 uppercase font-header font-black p-2 my-4;
+      @apply bg-red-primary uppercase font-header font-black p-2 my-4;
     }
 
     &_body {
-      @apply text-red-600 font-body;
+      @apply text-red-primary font-body;
     }
   }
 }

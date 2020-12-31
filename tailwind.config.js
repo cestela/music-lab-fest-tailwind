@@ -29,6 +29,11 @@ module.exports = {
       container: {
         center: true,
         padding: "1rem"
+      },
+      colors: {
+        red: {
+          primary: '#ff1716',
+        }
       }
     }
   },
